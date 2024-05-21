@@ -1,58 +1,62 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <body style="background-color:powderblue;">
-        <title>Charl Hirschfeld</title>
-         </head>
-         <body>
-         <div>
-            <h1>Welcome to my website</h1>
-            <p>Here you will find aspects about me.</p>
-            </div>
-         </body>
-    <section>
-        <br>
-         <h1>Where am I from?</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charl Hirschfeld</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my website</h1>
+        <p>Here you will find aspects about me.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Where am I from?</h2>
             <p>I am from New Zealand</p>
-            <br>
             <p>Did you know that there are 195 countries in the world!?</p>
-            <br>
             <p>Where in the world are you from?</p>
             <form action="https://www.worldometers.info/geography/how-many-countries-are-there-in-the-world/#:~:text=There%20are%20195%20countries%20in,and%20the%20State%20of%20Palestine.">
-            <input type="text" name="whereareyoufrom" placeholder="Country" required>
-            <button>Submit</button>
-    </section>
-    <br>
-    <section>
-    <h1>What do I do for fun?</h1>
-    <p>I like to play basketball for fun</p>
-    <br>
-    <p>What would you rather play?</p>
-    <label><input id="basketball" type="radio" name="sport">Basketball</label>
-    <label><input id="basketball" type="radio" name="sport">Rugby</label>
-    <label><input id="basketball" type="radio" name="sport">Football</label>
-    <p>Click <a href="https://www.nba.com/">here</a> to learn more about basketball</p>
-    <section>
-    <br>
-    <h1>What subjects do I take?</h1>
-    <p>I take:</p>
-    <ul>
-    <li>Mathematics</li>
-    <li>History</li>
-    <li>Economics</li>
-    <li>Te Reo Māori</li>
-    <li>English</li>
-    </ul>
-    <br>
-    <fieldset>
-        <legend>What subject types do you like to take</legend>
-        <input id="Science" name="subjects" type="checkbox"> <label for="Science">Science based</label>
-        <input id="Numeracy" name="subjects" type="checkbox"> <label for="Numeracy">Numeracy based</label>
-        <input id="Literacy" name="subjects" type="checkbox"> <label for="Literacy">Literacy based</label>
-    </fieldset>
-    <font size="4px"><p>I want to take <strong><font size="6px">LAW</font></strong> at univeristy</p></font>
-    </section>
-    <br>
-    <h2>Thank you for visiting my website!</h2>
-    <p>Please come visit some other time! I am always updating this website as a learning project.</p>
+                <input type="text" name="whereareyoufrom" placeholder="Country" required>
+                <button>Submit</button>
+            </form>
+        </section>
+        <section>
+            <h2>What do I do for fun?</h2>
+            <p>I like to play basketball for fun</p>
+            <p>What would you rather play?</p>
+            <label><input id="basketball" type="radio" name="sport">Basketball</label>
+            <label><input id="rugby" type="radio" name="sport">Rugby</label>
+            <label><input id="football" type="radio" name="sport">Football</label>
+            <p>Click <a href="https://www.nba.com/">here</a> to learn more about basketball</p>
+        </section>
+        <section>
+            <h2>What subjects do I take?</h2>
+            <p>I take:</p>
+            <ul>
+                <li>Mathematics</li>
+                <li>History</li>
+                <li>Economics</li>
+                <li>Te Reo Māori</li>
+                <li>English</li>
+            </ul>
+            <fieldset>
+                <legend>What subject types do you like to take</legend>
+                <input id="Science" name="subjects" type="checkbox"> <label for="Science">Science based</label>
+                <input id="Numeracy" name="subjects" type="checkbox"> <label for="Numeracy">Numeracy based</label>
+                <input id="Literacy" name="subjects" type="checkbox"> <label for="Literacy">Literacy based</label>
+            </fieldset>
+            <p>I want to take <strong>LAW</strong> at university</p>
+        </section>
+    </main>
+    <footer>
+        <h2>Thank you for visiting my website!</h2>
+        <p>Please come visit some other time! I am always updating this website as a learning project.</p>
+    </footer>
+</body>
 </html>
